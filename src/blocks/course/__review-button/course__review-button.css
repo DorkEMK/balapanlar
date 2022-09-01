@@ -1,12 +1,13 @@
 .course__review-button {
 	align-self: flex-end;
-	padding: 20px 28px;
 	color: black;
 	background-color: white;
+	border: none;
+	border-radius: 0;
+	outline: none;
 }
 
 .course__review-button:hover {
-	background-color: white;
 	opacity: 0.6;
 }
 

@@ -1,0 +1,9 @@
+.header__button {
+	margin: 34px 20px 34px 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.header__button {
+		display: none;
+	}
+}

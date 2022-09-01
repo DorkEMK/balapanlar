@@ -1,13 +1,15 @@
 .button {
 	box-sizing: border-box;
-	color: white;
+	max-width: 100%;
 	font-weight: 600;
 	text-align: center;
+	text-decoration: none;
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
+	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .button:hover {
-	cursor: pointer;
+	transition: 0.3s linear;
 }

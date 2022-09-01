@@ -1,0 +1,8 @@
+.button_theme_orange {
+	color: #ffffff;
+	background-color: #ff7628;
+}
+
+.button_theme_orange:hover {
+	background-color: #ff8540;
+}
