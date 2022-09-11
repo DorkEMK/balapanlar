@@ -1,0 +1,12 @@
+.course__button-block {
+	display: flex;
+	align-items: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+	.course__button-block {
+		flex-direction: column;
+		justify-self: flex-start;
+		align-items: flex-start;
+	}
+}

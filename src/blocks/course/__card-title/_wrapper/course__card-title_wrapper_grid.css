@@ -1,0 +1,9 @@
+.course__card-title_wrapper_grid {
+	grid-area: title;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__card-title_wrapper_grid {
+		margin-bottom: 0;
+	}
+}

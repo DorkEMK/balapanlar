@@ -1,0 +1,25 @@
+.lead {
+	max-width: 1440px;
+	background-color: #ffffff;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.lead {
+		max-width: 1024px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.lead {
+		max-width: 750px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead {
+		max-width: 320px;
+	}
+}

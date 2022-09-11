@@ -1,0 +1,21 @@
+.partners {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 80px 0 160px;
+	background-color: #ffffff;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+}
+
+@media screen and (max-width: 1024px){
+	.partners {
+		padding: 60px 15px 80px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.partners {
+		padding: 30px 15px 49px;
+		border-radius: 0;
+	}
+}

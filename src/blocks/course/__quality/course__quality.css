@@ -1,0 +1,10 @@
+.course__quality {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (max-width: 750px) {
+	.course__quality {
+		margin-bottom: 10px;
+	}
+}

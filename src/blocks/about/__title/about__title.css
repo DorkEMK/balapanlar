@@ -1,0 +1,25 @@
+.about__title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 1.13;
+	letter-spacing: -1px;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1024px) {
+	.about__title {
+		max-width: 595px;
+		margin: 0 auto;
+		font-size: 48px;
+		line-height: 1.23;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+	.about__title {
+		max-width: 595px;
+		margin: 0 auto;
+		font-size: 36px;
+		line-height: 1.22;
+	}
+}

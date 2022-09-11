@@ -1,0 +1,47 @@
+.header__menu {
+	display: none;
+}
+
+.header__menu::before,
+.header__menu::after {
+	display: block;
+	height: 2px;
+	margin: 7px 0;
+	background: #252525;
+	border-radius: 3px;
+	transition: 0.5s;
+	content: '';
+}
+
+.header__menu:active, .header__menu:focus {
+	outline: none;
+}
+
+/* .header__menu:hover::before {
+	transform: translateY(5px) rotate(135deg);
+}
+
+.header__menu:hover::after {
+	transform: translateY(-5px) rotate(-135deg);
+} */
+
+@media screen and (max-width: 1024px) {
+	.header__menu {
+		position: relative;
+		right: 7%;
+		display: block;
+		width: 100%;
+		max-width: 30px;
+		height: 30px;
+		padding: 0 0 0 0;
+		background-color: #ffffff;
+		border: none;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.header__menu {
+		right: 4%;
+	}
+}

@@ -1,0 +1,22 @@
+.popup__container_block_big {
+	width: 100%;
+	max-width: 1200px;
+	margin-top: 50px;
+	padding: 30px 0 30px 30px;
+	background-position: center;
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 1220px) {
+	.popup__container_block_big {
+		max-width: 594px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.popup__container_block_big {
+		max-width: 300px;
+		padding: 15px;
+		border-radius: 30px;
+	}
+}

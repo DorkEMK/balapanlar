@@ -1,0 +1,22 @@
+.course__review-button {
+	align-self: flex-end;
+	padding: 20px 28px;
+	color: black;
+	background-color: white;
+}
+
+.course__review-button:hover {
+	background-color: white;
+	opacity: 0.6;
+}
+
+@media screen and (max-width: 750px) {
+	.course__review-button {
+		order: 1;
+		align-self: flex-start;
+		margin: 20px 0 0;
+		padding: 0;
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}

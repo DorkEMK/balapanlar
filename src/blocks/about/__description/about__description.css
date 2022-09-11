@@ -1,0 +1,26 @@
+.about__description {
+	max-width: 920px;
+	margin: 40px 0 60px;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.22;
+	letter-spacing: -1px;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1024px) {
+	.about__description {
+		max-width: 595px;
+		margin: 40px auto 80px;
+		font-size: 30px;
+		line-height: 1.23;
+		letter-spacing: -0.5px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+	.about__description {
+		margin: 20px auto 0;
+		font-size: 24px;
+		line-height: 1.21;
+	}
+}

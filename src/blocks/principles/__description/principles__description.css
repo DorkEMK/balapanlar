@@ -1,0 +1,35 @@
+.principles__description {
+	max-width: 58.82%;
+	margin: 0;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 160px;
+	margin-left: auto;
+	color: white;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 1.13;
+	letter-spacing: -1px;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 750px) {
+	.principles__description {
+		max-width: 552px;
+		font-size: 48px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.principles__description {
+		max-width: 288px;
+		margin-top: 40px;
+		margin-bottom: 60px;
+		font-size: 36px;
+	}
+
+	.principles__element:last-of-type > h2 {
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,17 @@
+.lead__telegram-logo {
+	width: 22px;
+	height: 22px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.lead__telegram-logo {
+		align-self: flex-start;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.lead__telegram-logo {
+		align-self: center;
+	}
+}

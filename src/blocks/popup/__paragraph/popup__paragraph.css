@@ -1,0 +1,8 @@
+.popup__paragraph {
+	margin: 0;
+	padding-bottom: 14px;
+}
+
+.popup__paragraph:last-of-type {
+	padding-bottom: 0;
+}

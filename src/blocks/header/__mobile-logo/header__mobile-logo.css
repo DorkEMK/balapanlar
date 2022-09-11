@@ -1,0 +1,15 @@
+.header__mobile-logo {
+	width: 152px;
+	height: 150px;
+	margin: 25px 0 0 0;
+	background-image: url(../../../images/logo_balapanlar-mobile-tablet.svg);
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 350px) {
+	.header__mobile-logo {
+		width: 101px;
+		height: 100px;
+		background-image: url(../../../images/logo_balapanlar-mobile.svg);
+	}
+}

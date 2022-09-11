@@ -1,0 +1,22 @@
+.course__description-text-in-list {
+	margin: 0;
+	margin-bottom: 19px;
+	padding: 0;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.22;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__description-text-in-list {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__description-text-in-list {
+		margin-right: 15px;
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}

@@ -1,0 +1,16 @@
+.header__mobile-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+@media screen and (max-width: 350px) {
+	.header__mobile-links {
+		gap: 15px;
+	}
+}

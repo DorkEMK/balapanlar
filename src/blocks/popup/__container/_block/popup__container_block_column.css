@@ -1,0 +1,25 @@
+.popup__container_block_column {
+	position: relative;
+	top: 0;
+	align-items: center;
+	gap: 40px;
+	max-width: 885px;
+	padding: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+	.popup__container_block_column {
+		gap: 30px;
+		max-width: 80%;
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.popup__container_block_column {
+		top: 50px;
+		max-width: 92%;
+		padding: 30px 15px;
+		border-radius: 40px;
+	}
+}

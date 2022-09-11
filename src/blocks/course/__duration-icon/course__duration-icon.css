@@ -1,0 +1,8 @@
+.course__duration-icon {
+	width: 22px;
+	height: 22px;
+	margin-right: 13px;
+	margin-left: 0;
+	background-image: url(../../../images/icon_clock.svg);
+	background-repeat: no-repeat;
+}

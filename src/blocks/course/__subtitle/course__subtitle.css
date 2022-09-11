@@ -1,0 +1,23 @@
+.course__subtitle {
+	margin: 0 auto;
+	padding: 50px 0 10px;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.22;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__subtitle {
+		font-size: 30px;
+		letter-spacing: -0.5px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__subtitle {
+		font-size: 24px;
+		line-height: 1.2;
+	}
+}

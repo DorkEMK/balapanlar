@@ -1,0 +1,11 @@
+.header__mobile {
+	position: fixed;
+	top: -817px;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	max-width: 1024px;
+	background: #ffffff;
+	border-radius: 0 0 30px 30px;
+	transition: top 0.7s;
+}

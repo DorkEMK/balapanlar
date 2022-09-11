@@ -1,0 +1,10 @@
+.about__option-icon {
+	width: 100%;
+	max-width: 24px;
+	height: 24px;
+	margin-right: 11px;
+	background-image: url(../../../images/icon_check.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}

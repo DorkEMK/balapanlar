@@ -1,0 +1,26 @@
+.header__logo {
+	flex-basis: 224px;
+	width: 101px;
+	height: 100px;
+	margin: 10px 0 10px 20px;
+	background-image: url(../../../images/logo_balapanlar.svg);
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+	.header__logo {
+		width: 137px;
+		height: 30px;
+		margin: 25px 0 25px 75px;
+		background-image: url(../../../images/logo_balapanlar_tablet.png);
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.header__logo {
+		width: 101px;
+		height: 22px;
+		margin: 10px 0 10px 15px;
+		background-image: url(../../../images/small_logo_balapanlar.png);
+	}
+}

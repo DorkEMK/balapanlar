@@ -1,0 +1,21 @@
+.header__scroll {
+	position: fixed;
+	top: -100%;
+	z-index: 3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1440px;
+	height: 80px;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+
+@media screen and (max-width: 350px) {
+	.header__scroll {
+		height: 42px;
+	}
+}

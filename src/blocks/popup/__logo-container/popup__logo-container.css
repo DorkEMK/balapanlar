@@ -1,0 +1,11 @@
+.popup__logo-container {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+	.popup__logo-container {
+		display: flex;
+		align-items: center;
+		height: 150px;
+	}
+}

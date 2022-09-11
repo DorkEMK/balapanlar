@@ -1,0 +1,13 @@
+.header__button {
+	max-width: 224px;
+	margin: 34px 20px 34px 0;
+	padding: 16px 22px 16px 22px;
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+@media screen and (max-width: 1024px) {
+	.header__button {
+		display: none;
+	}
+}

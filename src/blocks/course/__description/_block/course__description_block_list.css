@@ -1,0 +1,10 @@
+.course__description_block_list {
+	width: 100%;
+	margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+	.course__description_block_list:first-of-type {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,17 @@
+.course__benefit-icon {
+	width: 100%;
+	max-width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	background-image: url(../../../images/icon_check.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+@media screen and (max-width: 750px) {
+	.course__benefit-icon {
+		max-width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,50 @@
+.course__price-block {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: max(386px) max(408px) max(386px);
+	grid-template-areas:
+		'title benefit weakness'
+		'button benefit weakness';
+	gap: 10px;
+	box-sizing: border-box;
+	max-width: 1199px;
+	height: 100%;
+	max-height: 347px;
+	margin: 0 0 120px;
+	padding: 30px 0 30px 30px;
+	background-color: #d0ddff;
+	border-radius: 60px;
+}
+
+
+@media screen and (max-width: 1220px) {
+	.course__price-block {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas:
+			'title'
+			'benefit'
+			'weakness'
+			'button';
+		gap: 0;
+		width: 100%;
+		max-width: 595px;
+		max-height: 100%;
+		margin: 0 75px 80px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__price-block {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas:
+			'title'
+			'benefit'
+			'weakness'
+			'button';
+		max-width: 300px;
+		max-height: 100%;
+		margin: 0 10px 10px;
+		padding: 15px;
+		border-radius: 30px;
+	}
+}

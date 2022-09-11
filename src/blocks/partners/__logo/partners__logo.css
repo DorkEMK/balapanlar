@@ -1,0 +1,17 @@
+.partners__logo {
+	box-sizing: border-box;
+	margin: 0;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 750px){
+	.partners__logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 290px;
+		height: 200px;
+		border: 2px solid #eaf0ff;
+		border-radius: 30px;
+	}
+}

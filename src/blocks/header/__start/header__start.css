@@ -1,0 +1,9 @@
+.header__start {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 126px;
+	width: 100%;
+	transition: 0.5s;
+}

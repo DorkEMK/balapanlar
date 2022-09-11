@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+	.popup__tag-elements {
+		padding-right: 1px;
+	}
+}

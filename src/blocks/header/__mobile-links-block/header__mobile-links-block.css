@@ -1,0 +1,7 @@
+.header__mobile-links-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}

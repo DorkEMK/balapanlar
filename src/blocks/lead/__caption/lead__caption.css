@@ -1,0 +1,31 @@
+.lead__caption {
+	margin: 26px 0 24px 0;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.22;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1024px) {
+	.lead__caption {
+		margin: 0;
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}
+
+/* @media screen and (max-width: 520px) {
+	.lead__caption {
+		line-height: 1.25;
+	}
+} */
+
+@media screen and (max-width: 350px) {
+	.lead__caption {
+		flex-direction: column;
+		text-align: center;
+		border-radius: 40px;
+	}
+}

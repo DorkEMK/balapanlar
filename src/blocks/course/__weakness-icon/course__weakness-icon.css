@@ -1,0 +1,16 @@
+.course__weakness-icon {
+	width: 100%;
+	max-width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	background-image: url(../../../images/crossmark.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media screen and (max-width: 750px) {
+	.course__weakness-icon {
+		max-width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,19 @@
+.course__pay-button {
+	grid-area: button;
+	max-width: 230px;
+	height: 64px;
+	margin-top: 80px;
+	border: none;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__pay-button {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__pay-button {
+		margin-top: 10px;
+	}
+}

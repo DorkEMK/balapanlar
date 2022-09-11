@@ -1,0 +1,6 @@
+.popup__description {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.22;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}

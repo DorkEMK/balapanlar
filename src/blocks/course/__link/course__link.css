@@ -1,0 +1,7 @@
+.course__link {
+	text-decoration: none;
+}
+
+.course__link:visited {
+	color: white;
+}

@@ -1,0 +1,13 @@
+.course__record-button {
+	justify-self: flex-end;
+	align-self: flex-end;
+	margin: 30px 2px 0 0;
+}
+
+@media screen and (max-width: 750px) {
+	.course__record-button {
+		order: 2;
+		align-self: flex-start;
+		margin: 20px 0 0;
+	}
+}

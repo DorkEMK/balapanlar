@@ -1,0 +1,19 @@
+.course__quality-list {
+	max-width: 347px;
+	margin: 15px 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__quality-list {
+		width: 100%;
+		max-width: 534px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__quality-list {
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,24 @@
+.course__programming {
+	box-sizing: border-box;
+	max-width: 1220px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+	border-radius: 70px;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__programming {
+		max-width: 654px;
+		padding: 0 30px 30px 30px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__programming {
+		display: block;
+		margin: 0;
+		padding: 0 0 10px 10px;
+		border-radius: 40px;
+	}
+}

@@ -1,0 +1,16 @@
+.course__programming-container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__programming-container {
+		margin: 0 45px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__programming-container {
+		margin: 0;
+	}
+}

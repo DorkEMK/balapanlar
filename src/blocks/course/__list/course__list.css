@@ -1,0 +1,26 @@
+.course__list {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(2, 595px);
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__list {
+		grid-template-columns: repeat(1, 594px);
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__list {
+		grid-template-columns: repeat(1, 300px);
+		justify-content: flex-start;
+		margin-right: 8px;
+	}
+}

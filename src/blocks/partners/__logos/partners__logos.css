@@ -1,0 +1,22 @@
+.partners__logos {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(202px, 1fr));
+	justify-items: center;
+	align-items: center;
+	box-sizing: border-box;
+	max-width: 885px;
+	min-height: 239px;
+	margin: 0 auto;
+	border: 2px solid #eaf0ff;
+	border-radius: 60px;
+}
+
+@media screen and (max-width: 750px){
+	.partners__logos {
+		grid-template-columns: repeat(auto-fill, 290px);
+		gap: 10px;
+		width: fit-content;
+		max-width: 100%;
+		border: none;
+	}
+}

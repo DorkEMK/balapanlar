@@ -1,0 +1,9 @@
+.header__list {
+	display: block;
+}
+
+@media screen and (max-width: 1024px) {
+	.header__list {
+		display: none;
+	}
+}

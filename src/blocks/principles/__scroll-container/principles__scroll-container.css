@@ -1,0 +1,19 @@
+.principles__scroll-container {
+	z-index: 1;
+	display: grid;
+	grid-template-columns: repeat(3, 100%);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+	.principles__scroll-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: auto;
+	}
+}

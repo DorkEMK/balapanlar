@@ -1,0 +1,13 @@
+.about__container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(291px, 1fr));
+	column-gap: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+	.about__container {
+		grid-template-columns: repeat(1, minmax(291px, 1fr));
+		max-width: 595px;
+		margin: 0 auto;
+	}
+}

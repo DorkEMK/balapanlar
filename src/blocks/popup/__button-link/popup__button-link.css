@@ -1,0 +1,12 @@
+.popup__button-link {
+	padding: 20px 28px;
+	font-size: 20px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 350px) {
+	.popup__button-link {
+		align-self: flex-start;
+	}
+}

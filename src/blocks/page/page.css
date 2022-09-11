@@ -1,0 +1,10 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	max-width: 1440px;
+	min-height: 100vh;
+	margin: 0 auto;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	background-color: #eaf0ff;
+}

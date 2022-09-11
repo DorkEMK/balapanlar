@@ -1,0 +1,26 @@
+.course__text {
+	max-width: 804px;
+	margin: 0 auto;
+	padding: 0 0 40px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.22;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__text {
+		max-width: 594px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__text {
+		max-width: 300px;
+		margin: 0;
+		padding-right: 10px;
+		font-size: 16px;
+		line-height: 1.25;
+	}
+}

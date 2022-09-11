@@ -1,0 +1,8 @@
+.button_theme_black {
+	background-color: #252525;
+}
+
+.button_theme_black:hover {
+	background-color: #333333;
+	transition: 0.3s linear;
+}

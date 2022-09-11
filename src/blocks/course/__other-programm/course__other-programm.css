@@ -1,0 +1,24 @@
+.course__other-programm {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: minmax(300px, 386px) minmax(300px, 408px) minmax(300px, 386px);
+	gap: 10px;
+	max-width: 1220px;
+	margin: 10px 0 0;
+	padding: 0 0 10px;
+	list-style-type: none;
+}
+
+@media screen and (max-width: 1220px) {
+	.course__other-programm {
+		grid-template-columns: repeat(1, 594px);
+		margin: 10px 75px 0;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.course__other-programm {
+		grid-template-columns: repeat(1, 300px);
+		margin: 10px 10px 0;
+	}
+}

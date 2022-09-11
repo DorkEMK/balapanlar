@@ -1,0 +1,22 @@
+.header__link {
+	display: flex;
+	margin: 0;
+	color: #000000;
+	font-weight: 500;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.22;
+	text-align: center;
+	text-decoration: none;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.header__link:hover {
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+	.header__link {
+		display: none;
+	}
+}

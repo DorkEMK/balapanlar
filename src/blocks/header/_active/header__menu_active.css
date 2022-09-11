@@ -1,0 +1,7 @@
+.header__menu_active::before {
+	transform: translateY(5px) rotate(135deg);
+}
+
+.header__menu_active::after {
+	transform: translateY(-5px) rotate(-135deg);
+}

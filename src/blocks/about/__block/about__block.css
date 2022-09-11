@@ -1,0 +1,15 @@
+.about__block {
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1024px) {
+	.about__block:first-of-type {
+		margin: 0 auto 80px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+	.about__block:first-of-type {
+		margin: 30px auto 60px;
+	}
+}

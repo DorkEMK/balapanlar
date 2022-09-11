@@ -1,0 +1,3 @@
+.course__card_size_small {
+	grid-template-columns: repeat(auto-fit, 386px);
+}
